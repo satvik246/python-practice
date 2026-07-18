@@ -1,0 +1,4 @@
+name,department,salary,location
+satvik,Integrations,55000,Hyderabad
+john,Finance,60000,Mumbai
+priya,HR,52000,Chennai
