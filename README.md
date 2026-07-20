@@ -10,3 +10,4 @@ Background: Oracle Integration Cloud, PL-SQL, REST APIs — 3 years experience.
 - Day 4: Functions
 - Day 5: Dictionaries
 - Day 6: File handling, CSV
+- Day 7 : Modules , JSON
