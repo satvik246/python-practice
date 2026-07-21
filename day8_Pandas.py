@@ -57,6 +57,7 @@ print(df.shape)
 #returned (4653, 9)
 # 2. Show the first 10 rows
 print(df[1:11])
+print(df.head(10))
 
 # 3. What are all the column names?
 print(df.columns)
@@ -66,7 +67,7 @@ print(df.columns)
 # 4. Show only employees where salary > 50000
 #    (use whatever salary column exists in your dataset)
 #salary column is not present in data set so replaced it with age 
-print(df['Age']>30)
+print(df[df['Age']>30])
 # 5. Show only the name and department columns for those employees
 #name and department are not there in data set , used other two columns
 print(df[['Age','JoiningYear']][df.Age>30])
